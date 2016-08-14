@@ -22,15 +22,15 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.api-client</groupId>
-      <artifactId>google-api-client</artifactId>
-      <version>1.19.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>org.mongodb.morphia</groupId>
       <artifactId>morphia</artifactId>
       <version>1.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.api-client</groupId>
+      <artifactId>google-api-client</artifactId>
+      <version>1.19.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
