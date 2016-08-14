@@ -1,0 +1,10 @@
+# eclipse
+.classpath
+.project
+.settings/
+
+# mvn
+target/
+
+# java
+*.jar
