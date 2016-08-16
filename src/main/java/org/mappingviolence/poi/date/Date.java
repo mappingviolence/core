@@ -228,7 +228,7 @@ public class Date implements Comparable<Date> {
 
     public Builder setMonth(String month) {
       if (!monthsWith30.contains(month) && !monthsWith31.contains(month)
-          && "February".equals(month)) {
+          && !"February".equals(month)) {
         throw new IllegalArgumentException(month + " is not a valid month");
       }
       date.month = month;
