@@ -14,7 +14,7 @@ public class DatabaseConnection {
   static {
     try {
       // CLIENT = new MongoClient(new ServerAddress("0.tcp.ngrok.io", 14903));
-      CLIENT = new MongoClient(new ServerAddress("utra.mappingviolence.org", 27017));
+      CLIENT = new MongoClient(new ServerAddress("production-mongodb.mappingviolence", 27017));
       MORPHIA = new Morphia();
 
       // tell Morphia where to find your classes
